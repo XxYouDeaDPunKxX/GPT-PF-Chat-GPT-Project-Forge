@@ -105,13 +105,13 @@ In every case, the goal is the same: fill the project-opening artifacts with exp
 At minimum, prepare:
 
 - [`ENTRY_POINT.md`](./artifact_templates/ENTRY_POINT.md)
-- `TARGET_PROJECT_BRIEF_ARTIFACT`
-- `INITIAL_SSOT_ARTIFACT`
+- [`TARGET_PROJECT_BRIEF_ARTIFACT.template.md`](./artifact_templates/TARGET_PROJECT_BRIEF_ARTIFACT.template.md)
+- [`INITIAL_SSOT_ARTIFACT.template.md`](./artifact_templates/INITIAL_SSOT_ARTIFACT.template.md)
 
 When needed, also prepare:
 
-- `SOURCE_OR_MATERIAL_TRANSFER_ARTIFACT`
-- `HANDOFF_ARTIFACT`
+- [`SOURCE_OR_MATERIAL_TRANSFER_ARTIFACT.template.md`](./artifact_templates/SOURCE_OR_MATERIAL_TRANSFER_ARTIFACT.template.md)
+- [`HANDOFF_ARTIFACT.template.md`](./artifact_templates/HANDOFF_ARTIFACT.template.md)
 
 ### 3) Use the agent as a structured preparation partner
 
@@ -145,12 +145,12 @@ Start from:
 
 Then continue with the canonical artifact read order:
 
-1. `TARGET_PROJECT_BRIEF_ARTIFACT`
-2. `INITIAL_SSOT_ARTIFACT`
-3. `SOURCE_OR_MATERIAL_TRANSFER_ARTIFACT`
-4. `HANDOFF_ARTIFACT`
+1. [`TARGET_PROJECT_BRIEF_ARTIFACT.template.md`](./artifact_templates/TARGET_PROJECT_BRIEF_ARTIFACT.template.md)
+2. [`INITIAL_SSOT_ARTIFACT.template.md`](./artifact_templates/INITIAL_SSOT_ARTIFACT.template.md)
+3. [`SOURCE_OR_MATERIAL_TRANSFER_ARTIFACT.template.md`](./artifact_templates/SOURCE_OR_MATERIAL_TRANSFER_ARTIFACT.template.md)
+4. [`HANDOFF_ARTIFACT.template.md`](./artifact_templates/HANDOFF_ARTIFACT.template.md)
 
-In many cases, [`ENTRY_POINT.md`](./artifact_templates/ENTRY_POINT.md), `TARGET_PROJECT_BRIEF_ARTIFACT`, and `INITIAL_SSOT_ARTIFACT` are enough to open the project cleanly.
+In many cases, [`ENTRY_POINT.md`](./artifact_templates/ENTRY_POINT.md), [`TARGET_PROJECT_BRIEF_ARTIFACT.template.md`](./artifact_templates/TARGET_PROJECT_BRIEF_ARTIFACT.template.md), and [`INITIAL_SSOT_ARTIFACT.template.md`](./artifact_templates/INITIAL_SSOT_ARTIFACT.template.md) are enough to open the project cleanly.
 
 ### 6) Begin the live work only after the opening package is ready
 
@@ -196,11 +196,11 @@ These are the controlled surfaces used to open or continue a downstream target p
 
 Depending on the case, they may include:
 
-- an entry point for the target-project package
-- a target-project brief
-- an initial SSOT
-- a source or material transfer artifact
-- a handoff artifact
+- [`ENTRY_POINT.md`](./artifact_templates/ENTRY_POINT.md) for the target-project package
+- [`TARGET_PROJECT_BRIEF_ARTIFACT.template.md`](./artifact_templates/TARGET_PROJECT_BRIEF_ARTIFACT.template.md)
+- [`INITIAL_SSOT_ARTIFACT.template.md`](./artifact_templates/INITIAL_SSOT_ARTIFACT.template.md)
+- [`SOURCE_OR_MATERIAL_TRANSFER_ARTIFACT.template.md`](./artifact_templates/SOURCE_OR_MATERIAL_TRANSFER_ARTIFACT.template.md)
+- [`HANDOFF_ARTIFACT.template.md`](./artifact_templates/HANDOFF_ARTIFACT.template.md)
 
 The boundary matters:
 
@@ -244,10 +244,10 @@ Forge is for **preparing** a project, not for **being** the project.
 ### Canonical core
 These files define Project Forge itself:
 
-- `00_SCOPE.md`
-- `01_RULES.md`
-- `03_ARTIFACTS.md`
-- `02_PROTOCOL.md`
+- [`00_SCOPE.md`](./00_SCOPE.md)
+- [`01_RULES.md`](./01_RULES.md)
+- [`03_ARTIFACTS.md`](./03_ARTIFACTS.md)
+- [`02_PROTOCOL.md`](./02_PROTOCOL.md)
 
 This is the governing layer of the system.
 

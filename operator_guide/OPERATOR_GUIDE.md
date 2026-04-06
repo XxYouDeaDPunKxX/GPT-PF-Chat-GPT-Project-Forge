@@ -10,10 +10,10 @@ Use it to decide what to give the AI, what to hold back, what to externalize, an
 This guide is not canonical authority.
 
 Canonical authority lives only in:
-- [`00_SCOPE.md`](../00_SCOPE.md)
-- [`01_RULES.md`](../01_RULES.md)
-- [`03_ARTIFACTS.md`](../03_ARTIFACTS.md)
-- [`02_PROTOCOL.md`](../02_PROTOCOL.md)
+- `00_SCOPE.md`
+- `01_RULES.md`
+- `03_ARTIFACTS.md`
+- `02_PROTOCOL.md`
 
 Use this guide to operate the system.
 Do not use this guide to override the canonicals.
@@ -60,7 +60,7 @@ Do not start from `02_PROTOCOL.md` alone.
 Without frame, rules, and artifact grammar, procedure can be misread as permission.
 
 ## The Role Of AI_START
-[`AI_START.md`](../AI_START.md) is a bootstrap file for the AI.
+`AI_START.md` is a bootstrap file for the AI.
 
 Use it when you want to drop an AI into the system and have it begin correctly with minimal briefing.
 
@@ -74,7 +74,7 @@ It is not a fifth canonical.
 It does not introduce new rules.
 
 A good practical pattern is:
-- give the AI [`AI_START.md`](../AI_START.md)
+- give the AI `AI_START.md`
 - give it the canonicals
 - give it only the artifacts that actually exist
 - then let it start
@@ -107,10 +107,10 @@ Use this when you are testing whether Project Forge itself behaves correctly.
 
 Typical inputs:
 - canonicals
-- [`AI_START.md`](../AI_START.md)
-- [`smoke_test/SMOKE_TEST.md`](../smoke_test/SMOKE_TEST.md)
+- `AI_START.md`
+- `smoke_test/SMOKE_TEST.md`
 - one simple case file
-- the smallest useful package templates, usually [`ENTRY_POINT.md`](../artifact_templates/ENTRY_POINT.md), target brief, and initial SSOT
+- the smallest useful package templates, usually `artifact_templates/ENTRY_POINT.md`, target brief, and initial SSOT
 
 Do not mix these three modes casually.
 If you do, you usually create confusion about what is real state and what is only a test.
@@ -346,11 +346,11 @@ Do not use it as fake SSOT.
 
 ## How To Use The Templates
 Template files live in:
-- [`../artifact_templates/ENTRY_POINT.md`](../artifact_templates/ENTRY_POINT.md)
-- [`../artifact_templates/TARGET_PROJECT_BRIEF_ARTIFACT.template.md`](../artifact_templates/TARGET_PROJECT_BRIEF_ARTIFACT.template.md)
-- [`../artifact_templates/INITIAL_SSOT_ARTIFACT.template.md`](../artifact_templates/INITIAL_SSOT_ARTIFACT.template.md)
-- [`../artifact_templates/HANDOFF_ARTIFACT.template.md`](../artifact_templates/HANDOFF_ARTIFACT.template.md)
-- [`../artifact_templates/SOURCE_OR_MATERIAL_TRANSFER_ARTIFACT.template.md`](../artifact_templates/SOURCE_OR_MATERIAL_TRANSFER_ARTIFACT.template.md)
+- `artifact_templates/ENTRY_POINT.md`
+- `artifact_templates/TARGET_PROJECT_BRIEF_ARTIFACT.template.md`
+- `artifact_templates/INITIAL_SSOT_ARTIFACT.template.md`
+- `artifact_templates/HANDOFF_ARTIFACT.template.md`
+- `artifact_templates/SOURCE_OR_MATERIAL_TRANSFER_ARTIFACT.template.md`
 
 They are startup surfaces only.
 
@@ -503,7 +503,7 @@ Corrective move:
 
 ### Pattern A: Fresh opening
 Use:
-- [`AI_START.md`](../AI_START.md)
+- `AI_START.md`
 - the 4 canonicals
 - only the materials you want to expose
 
@@ -515,7 +515,7 @@ Do:
 
 ### Pattern B: Re-entry with continuity
 Use:
-- [`AI_START.md`](../AI_START.md)
+- `AI_START.md`
 - the 4 canonicals
 - existing stable artifacts
 - `HANDOFF_ARTIFACT` only if genuinely required
@@ -527,7 +527,7 @@ Do:
 
 ### Pattern C: Smoke test
 Use:
-- [`AI_START.md`](../AI_START.md)
+- `AI_START.md`
 - the 4 canonicals
 - one small case
 - minimum opening pack
@@ -539,7 +539,7 @@ This is the best honest test of whether the system is operational.
 
 ## What To Give The AI At The Beginning
 Good startup package:
-- [`AI_START.md`](../AI_START.md)
+- `AI_START.md`
 - the 4 canonicals
 - only the artifacts that actually exist
 - only the source pack you want it to use
@@ -566,7 +566,7 @@ Instantiate:
 - one target brief
 - one initial SSOT
 
-For a concrete example, use [`smoke_test/CASE_01_MINIMAL_OPENING.md`](../smoke_test/CASE_01_MINIMAL_OPENING.md).
+For a concrete example, use `smoke_test/CASE_01_MINIMAL_OPENING.md`.
 
 Then see whether the target project starts cleanly without reconstructing the case from chat.
 
