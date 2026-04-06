@@ -1,25 +1,5 @@
 # Project Forge
 
-## Core idea
-
-Project Forge is built on a simple distinction:
-
-- the **system core** defines how the preparation system works
-- the **target-project package** carries what the downstream project needs at startup
-
-If those two layers collapse into each other, the system loses its main boundary:
-the core gets mixed with live case state, and the opening package stops being clean.
-
-Forge is built to keep that boundary intact.
-
----
-
-## In one line
-
-**Project Forge helps you open serious ChatGPT Projects from explicit structure, not from conversational drift.**
-
----
-
 ## What Project Forge is
 
 Project Forge is a structured preparation layer for work that will run inside **ChatGPT Projects**.
@@ -42,11 +22,31 @@ Its job is simple:
 
 ---
 
+## Core idea
+
+Project Forge is built on a simple distinction:
+
+- the **system core** defines how the preparation system works
+- the **target-project package** carries what the downstream project needs at startup
+
+If those two layers collapse into each other, the system loses its main boundary:
+the core gets mixed with live case state, and the opening package stops being clean.
+
+Forge is built to keep that boundary intact.
+
+---
+
 ## ChatGPT Projects context
 
 Project Forge is written for **ChatGPT Projects** - the ChatGPT workspace surface built around bounded chats, files, and instructions.
 
 That is a different operating environment from a normal standalone chat, and this repository is designed with that distinction in mind.
+
+---
+
+## In one line
+
+**Project Forge helps you open serious ChatGPT Projects from explicit structure, not from conversational drift.**
 
 ---
 
