@@ -104,7 +104,7 @@ In every case, the goal is the same: fill the project-opening artifacts with exp
 
 At minimum, prepare:
 
-- `ENTRY_POINT.md`
+- [`ENTRY_POINT.md`](./artifact_templates/ENTRY_POINT.md)
 - `TARGET_PROJECT_BRIEF_ARTIFACT`
 - `INITIAL_SSOT_ARTIFACT`
 
@@ -117,7 +117,7 @@ When needed, also prepare:
 
 A practical way to work is:
 
-- ask the agent to read `AI_START.md`
+- ask the agent to read [`AI_START.md`](./AI_START.md)
 - let it route into the canonical core
 - define the target project together
 - close scope in and scope out
@@ -141,7 +141,7 @@ In the downstream project, tell the agent to read the opening materials in the c
 
 Start from:
 
-1. `ENTRY_POINT.md`
+1. [`ENTRY_POINT.md`](./artifact_templates/ENTRY_POINT.md)
 
 Then continue with the canonical artifact read order:
 
@@ -150,7 +150,7 @@ Then continue with the canonical artifact read order:
 3. `SOURCE_OR_MATERIAL_TRANSFER_ARTIFACT`
 4. `HANDOFF_ARTIFACT`
 
-In many cases, `ENTRY_POINT.md`, `TARGET_PROJECT_BRIEF_ARTIFACT`, and `INITIAL_SSOT_ARTIFACT` are enough to open the project cleanly.
+In many cases, [`ENTRY_POINT.md`](./artifact_templates/ENTRY_POINT.md), `TARGET_PROJECT_BRIEF_ARTIFACT`, and `INITIAL_SSOT_ARTIFACT` are enough to open the project cleanly.
 
 ### 6) Begin the live work only after the opening package is ready
 
@@ -254,19 +254,19 @@ This is the governing layer of the system.
 ### Operator guidance
 These files support the human operator:
 
-- `operator_guide/OPERATOR_GUIDE.md`
-- `operator_guide/OPERATOR_TECHNICAL_REFERENCE.md`
+- [`operator_guide/OPERATOR_GUIDE.md`](./operator_guide/OPERATOR_GUIDE.md)
+- [`operator_guide/OPERATOR_TECHNICAL_REFERENCE.md`](./operator_guide/OPERATOR_TECHNICAL_REFERENCE.md)
 
 Use them for the practical operating rhythm and the deeper technical rationale.
 
 ### AI bootstrap
-- `AI_START.md`
+- [`AI_START.md`](./AI_START.md)
 
 This is a startup routing file for the AI.  
 It exists to route an AI session into the canonicals and constrain startup assumptions. It is **not** the primary onboarding surface for a human reader.
 
 ### Artifact templates
-- `artifact_templates/`
+- [`artifact_templates/`](./artifact_templates/)
 
 This directory contains template surfaces that Forge may instantiate for a downstream target project.
 
@@ -274,7 +274,7 @@ These templates are **not** the system authority.
 They are output surfaces used during project preparation.
 
 ### Smoke tests
-- `smoke_test/`
+- [`smoke_test/`](./smoke_test/)
 
 This contains the smallest operational checks for verifying that the system can open a target project cleanly.
 
@@ -285,8 +285,8 @@ This contains the smallest operational checks for verifying that the system can 
 If you just want to understand whether Project Forge is useful for your workflow, start with the shortest practical path:
 
 1. read the opening of [`operator_guide/OPERATOR_GUIDE.md`](./operator_guide/OPERATOR_GUIDE.md)  
-2. read `smoke_test/SMOKE_TEST.md`
-3. read `smoke_test/CASE_01_MINIMAL_OPENING.md`
+2. read [`smoke_test/SMOKE_TEST.md`](./smoke_test/SMOKE_TEST.md)
+3. read [`smoke_test/CASE_01_MINIMAL_OPENING.md`](./smoke_test/CASE_01_MINIMAL_OPENING.md)
 
 That is usually enough to answer the first real question:
 
