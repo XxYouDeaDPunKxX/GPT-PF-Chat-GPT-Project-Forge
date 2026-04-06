@@ -1,5 +1,7 @@
 # Project Forge
 
+![Project Forge banner](./asset/banner.png)
+
 ## What Project Forge is
 
 Project Forge is a structured preparation layer for work that will run inside **ChatGPT Projects**.
@@ -47,6 +49,8 @@ That is a different operating environment from a normal standalone chat, and thi
 ## In one line
 
 **Project Forge helps you open serious ChatGPT Projects from explicit structure, not from conversational drift.**
+
+![Project Forge core idea](./asset/pic%203.png)
 
 ---
 
@@ -127,6 +131,8 @@ A typical flow looks like this:
 This makes Forge useful as a bridge between **conversation** and **structured project setup**.
 
 ---
+
+![Project Forge workflow](./asset/pic%202.png)
 
 ## What Forge does
 
@@ -271,6 +277,8 @@ It is most useful anywhere you can:
 - reopen work without depending on hidden continuity
 
 ---
+
+![Project Forge repository overview](./asset/pic%201.png)
 
 ## Repository structure
 
