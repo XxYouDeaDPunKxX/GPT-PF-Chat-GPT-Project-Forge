@@ -2,7 +2,7 @@
 
 ![Project Forge banner](./asset/banner.png)
 
-## What Project Forge is
+## 🧭 What Project Forge is
 
 Project Forge is a structured preparation layer for work that will run inside **ChatGPT Projects**.
 
@@ -13,7 +13,7 @@ Most workspaces give you a place to chat.
 
 ---
 
-## What Project Forge is not
+## 🚫 What Project Forge is not
 
 Project Forge is **not** the live project.  
 It is **not** a notebook, a memory substitute, or a raw source dump.
@@ -24,7 +24,7 @@ Its job is simple:
 
 ---
 
-## Core idea
+## 🧩 Core idea
 
 Project Forge is built on a simple distinction:
 
@@ -38,7 +38,7 @@ Forge is built to keep that boundary intact.
 
 ---
 
-## ChatGPT Projects context
+## 💬 ChatGPT Projects context
 
 Project Forge is written for **ChatGPT Projects** - the ChatGPT workspace surface built around bounded chats, files, and instructions.
 
@@ -46,7 +46,7 @@ That is a different operating environment from a normal standalone chat, and thi
 
 ---
 
-## In one line
+## ⚡ In one line
 
 **Project Forge helps you open serious ChatGPT Projects from explicit structure, not from conversational drift.**
 
@@ -54,7 +54,7 @@ That is a different operating environment from a normal standalone chat, and thi
 
 ---
 
-## Why it exists
+## 🎯 Why it exists
 
 Projects often begin in an ambiguous way:
 
@@ -69,7 +69,7 @@ It creates a controlled opening layer between a blank workspace and the real dow
 
 ---
 
-## When to use it
+## ✅ When to use it
 
 Use Project Forge when a target project needs to start from **explicit structure** rather than from reconstruction inside chat.
 
@@ -83,7 +83,7 @@ It is a good fit when you need to:
 
 ---
 
-## When not to use it
+## ⛔ When not to use it
 
 Do **not** use Project Forge as:
 
@@ -97,11 +97,11 @@ Forge is for **preparing** a project, not for **being** the project.
 
 ---
 
-## Where to use it
+## 🧰 Where to use it
 
 Project Forge can be used in two main ways.
 
-### 1) As a preparation layer inside ChatGPT Projects
+### 1) 🗂️ As a preparation layer inside ChatGPT Projects
 
 Keep a **clean Forge project** as your reusable preparation kit.
 
@@ -116,7 +116,7 @@ When you want to open a new downstream project, use that Forge workspace to:
 In this mode, Forge acts as a **project-preparation system** for other projects.  
 It helps you build the opening package before the live project work begins.
 
-### 2) With file-based agents and IDE workflows
+### 2) 💻 With file-based agents and IDE workflows
 
 Forge also works well in agent environments where the model can read and write files while you stay in control of source selection.
 
@@ -134,7 +134,7 @@ This makes Forge useful as a bridge between **conversation** and **structured pr
 
 ![Project Forge workflow](./asset/pic%202.png)
 
-## What Forge does
+## 🛠️ What Forge does
 
 Project Forge is used to:
 
@@ -146,11 +146,11 @@ Project Forge is used to:
 
 ---
 
-## What it produces
+## 📦 What it produces
 
 Project Forge produces two kinds of output:
 
-### 1. A stable canonical core
+### 1. 📘 A stable canonical core
 The core defines the system itself:
 
 - frame
@@ -158,7 +158,7 @@ The core defines the system itself:
 - artifact grammar
 - procedure
 
-### 2. External project-opening artifacts
+### 2. 📄 External project-opening artifacts
 These are the controlled surfaces used to open or continue a downstream target project.
 
 Depending on the case, they may include:
@@ -178,20 +178,20 @@ That separation is one of Project Forge's main control surfaces.
 
 ---
 
-## How to use it
+## 🚀 How to use it
 
 Project Forge is a **virgin preparation kit**: you keep it clean, then use it to prepare new downstream projects.
 
 A real workflow usually looks like this.
 
-### 1) Start from a clean Forge workspace
+### 1) 🧼 Start from a clean Forge workspace
 
 Keep one clean Project Forge setup as your reusable preparation environment.
 
 Do not turn that workspace into the live project itself.  
 Use it to define the target, close scope, review sources, and compile the opening package for the downstream project.
 
-### 2) Fill the artifacts for the project you want to open
+### 2) 📝 Fill the artifacts for the project you want to open
 
 Choose how you want to work:
 
@@ -212,7 +212,7 @@ When needed, also prepare:
 - [`SOURCE_OR_MATERIAL_TRANSFER_ARTIFACT.template.md`](./artifact_templates/SOURCE_OR_MATERIAL_TRANSFER_ARTIFACT.template.md)
 - [`HANDOFF_ARTIFACT.template.md`](./artifact_templates/HANDOFF_ARTIFACT.template.md)
 
-### 3) Use the agent as a structured preparation partner
+### 3) 🤝 Use the agent as a structured preparation partner
 
 A practical way to work is:
 
@@ -228,13 +228,13 @@ A practical way to work is:
 
 This lets you prepare the project conversationally while keeping the resulting structure externalized in files.
 
-### 4) Create the downstream project
+### 4) 🆕 Create the downstream project
 
 Once the opening package is ready, create your new downstream project and place the prepared startup surfaces inside it.
 
 The downstream project should start from the prepared materials, not from reconstructed chat context.
 
-### 5) Open the downstream project from the artifacts
+### 5) 📖 Open the downstream project from the artifacts
 
 In the downstream project, tell the agent to read the opening materials in the correct startup order.
 
@@ -251,7 +251,7 @@ Then continue with the canonical artifact read order:
 
 In many cases, [`ENTRY_POINT.md`](./artifact_templates/ENTRY_POINT.md), [`TARGET_PROJECT_BRIEF_ARTIFACT.template.md`](./artifact_templates/TARGET_PROJECT_BRIEF_ARTIFACT.template.md), and [`INITIAL_SSOT_ARTIFACT.template.md`](./artifact_templates/INITIAL_SSOT_ARTIFACT.template.md) are enough to open the project cleanly.
 
-### 6) Begin the live work only after the opening package is ready
+### 6) ▶️ Begin the live work only after the opening package is ready
 
 Once the downstream project has read the opening artifacts, the live project work can begin from an explicit basis:
 
@@ -266,7 +266,7 @@ prepare first, then open the real project cleanly.
 
 ---
 
-### What matters most
+### 🔍 What matters most
 
 Forge is not tied to a single interface.
 
@@ -280,9 +280,9 @@ It is most useful anywhere you can:
 
 ![Project Forge repository overview](./asset/pic%201.png)
 
-## Repository structure
+## 🗂️ Repository structure
 
-### Canonical core
+### 📘 Canonical core
 These files define Project Forge itself:
 
 - [`00_SCOPE.md`](./00_SCOPE.md)
@@ -292,7 +292,7 @@ These files define Project Forge itself:
 
 This is the governing layer of the system.
 
-### Operator guidance
+### 👤 Operator guidance
 These files support the human operator:
 
 - [`operator_guide/OPERATOR_GUIDE.md`](./operator_guide/OPERATOR_GUIDE.md)
@@ -300,13 +300,13 @@ These files support the human operator:
 
 Use them for the practical operating rhythm and the deeper technical rationale.
 
-### AI bootstrap
+### 🤖 AI bootstrap
 - [`AI_START.md`](./AI_START.md)
 
 This is a startup routing file for the AI.  
 It exists to route an AI session into the canonicals and constrain startup assumptions. It is **not** the primary onboarding surface for a human reader.
 
-### Artifact templates
+### 🧱 Artifact templates
 - [`artifact_templates/`](./artifact_templates/)
 
 This directory contains template surfaces that Forge may instantiate for a downstream target project.
@@ -314,14 +314,14 @@ This directory contains template surfaces that Forge may instantiate for a downs
 These templates are **not** the system authority.  
 They are output surfaces used during project preparation.
 
-### Smoke tests
+### 🧪 Smoke tests
 - [`smoke_test/`](./smoke_test/)
 
 This contains the smallest operational checks for verifying that the system can open a target project cleanly.
 
 ---
 
-## Recommended read path
+## 📚 Recommended read path
 
 If you just want to understand whether Project Forge is useful for your workflow, start with the shortest practical path:
 
@@ -337,6 +337,6 @@ If the answer is yes, move into the canonical core.
 
 ---
 
-## License
+## ⚖️ License
 
 This project is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License (`CC BY-SA 4.0`). See [LICENSE](./LICENSE).
