@@ -337,6 +337,14 @@ If the answer is yes, move into the canonical core.
 
 ---
 
+## 🤖 AI-assisted development
+
+Project Forge was developed with AI assistance.
+
+The system, documentation, and repository materials were shaped through human-directed work supported by AI tools during drafting, structuring, review, and refinement.
+
+---
+
 ## ⚖️ License
 
 This project is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License (`CC BY-SA 4.0`). See [LICENSE](./LICENSE).
