@@ -88,6 +88,7 @@ These files help operators or AI enter the system correctly, but they do not gov
 - `AI_START.md`
 - `OPERATOR_GUIDE.md`
 - `OPERATOR_GUIDE_IT.md`
+- web compiler: `https://xxyoudeadpunkxx.github.io/GPT-PF/compiler/`
 - this technical reference
 - `smoke_test/` materials
 
@@ -233,6 +234,18 @@ The guides translate the system into human operating practice:
 - how to interpret the system in real use
 
 They are downstream explanations, not authority.
+
+### Web compiler
+The web compiler exists as an operator-facing compilation surface.
+
+Its role is narrower than the protocol and narrower than the canonicals:
+- help the operator fill the artifact surfaces
+- keep required versus optional surfaces legible
+- support import, review, and export in one place
+
+It is not an artifact class.
+It is not authority.
+It is not a substitute for source validation, readiness, or operator judgment.
 
 ### Smoke test materials
 Smoke test materials exist to test whether the system works operationally before it is trusted on more consequential work.
@@ -760,6 +773,10 @@ They do not:
 
 Those decisions remain upstream in the canonicals.
 
+The same logic applies to the web compiler:
+- it helps instantiate and fill the surfaces
+- it does not decide truth, authority, or promotion
+
 ## Recommended Minimum Opening Pack
 For many clean first openings, the smallest useful pack is:
 - `ENTRY_POINT.md`
@@ -858,6 +875,9 @@ Use this file when:
 - you are designing the HTML/wiki layer
 - you are diagnosing why a session felt wrong
 - you are deciding whether a new support surface would duplicate authority
+
+The web compiler is one of those support surfaces:
+- `https://xxyoudeadpunkxx.github.io/GPT-PF/compiler/`
 
 Do not use this file to overrule the canonicals.
 If you find a contradiction, treat it as:

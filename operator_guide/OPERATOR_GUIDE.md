@@ -79,6 +79,23 @@ A good practical pattern is:
 - give it only the artifacts that actually exist
 - then let it start
 
+## The Role Of The Web Compiler
+Project Forge also has a guided web compiler:
+
+- `https://xxyoudeadpunkxx.github.io/GPT-PF/compiler/`
+
+Use it when you want a cleaner operator-facing surface for filling the opening artifacts.
+
+Use it to:
+- fill the brief and initial SSOT in a structured way
+- keep required and optional surfaces visible
+- review imports before they affect the draft
+- export a cleaner opening package
+
+Do not treat the compiler as authority.
+It is a support surface for artifact compilation.
+The canonicals still govern the system.
+
 ## Before You Start A Session
 Before opening a real case, decide what kind of session you are running.
 
@@ -230,6 +247,9 @@ Close:
 
 If those three are unstable, the honest state is usually `NOT_READY`.
 
+If you want a guided surface for filling those sections, the web compiler is a good fit:
+- `https://xxyoudeadpunkxx.github.io/GPT-PF/compiler/`
+
 ### Step 3. Close the output set
 Be able to say:
 - what the target project must receive
@@ -361,6 +381,9 @@ They help you:
 
 They do not create authority by themselves.
 Authority still comes from the canonicals.
+
+If you want to fill the same artifact structure in a guided browser surface instead of editing the files directly, use:
+- `https://xxyoudeadpunkxx.github.io/GPT-PF/compiler/`
 
 ## Minimum Practical Opening Pack
 In the most common clean opening, expect to need:
@@ -543,6 +566,9 @@ Good startup package:
 - the 4 canonicals
 - only the artifacts that actually exist
 - only the source pack you want it to use
+
+If you want to prepare those artifacts before the AI session begins, the web compiler is a valid operator surface:
+- `https://xxyoudeadpunkxx.github.io/GPT-PF/compiler/`
 
 Do not give:
 - old chats as if they were authoritative

@@ -130,6 +130,14 @@ A typical flow looks like this:
 
 This makes Forge useful as a bridge between **conversation** and **structured project setup**.
 
+### 3) Guided web compiler
+
+Project Forge also has a guided web compiler for filling the project-opening artifacts:
+
+- `https://xxyoudeadpunkxx.github.io/GPT-PF/compiler/`
+
+Use it when you want a dedicated browser surface for drafting the opening package while keeping the canonicals and operator judgment in charge.
+
 ---
 
 ![Project Forge workflow](./asset/pic%202.png)
@@ -176,6 +184,10 @@ The boundary matters:
 
 That separation is one of Project Forge's main control surfaces.
 
+If you want a guided way to fill those artifact surfaces in the browser, use the compiler:
+
+- `https://xxyoudeadpunkxx.github.io/GPT-PF/compiler/`
+
 ---
 
 ## 🚀 How to use it
@@ -196,6 +208,7 @@ Use it to define the target, close scope, review sources, and compile the openin
 Choose how you want to work:
 
 - manually
+- with the guided web compiler: `https://xxyoudeadpunkxx.github.io/GPT-PF/compiler/`
 - with help from ChatGPT Projects
 - with a file-based agent in an IDE or CLI environment
 
@@ -297,6 +310,10 @@ These files support the human operator:
 
 - [`operator_guide/OPERATOR_GUIDE.md`](./operator_guide/OPERATOR_GUIDE.md)
 - [`operator_guide/OPERATOR_TECHNICAL_REFERENCE.md`](./operator_guide/OPERATOR_TECHNICAL_REFERENCE.md)
+
+There is also a guided browser compiler for filling the opening artifacts:
+
+- `https://xxyoudeadpunkxx.github.io/GPT-PF/compiler/`
 
 Use them for the practical operating rhythm and the deeper technical rationale.
 
