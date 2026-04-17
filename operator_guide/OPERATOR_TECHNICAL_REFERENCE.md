@@ -88,7 +88,7 @@ These files help operators or AI enter the system correctly, but they do not gov
 - `AI_START.md`
 - `OPERATOR_GUIDE.md`
 - `OPERATOR_GUIDE_IT.md`
-- web compiler: `https://xxyoudeadpunkxx.github.io/GPT-PF/compiler/`
+- web compiler: `https://xxyoudeadpunkxx.github.io/GPT-PF-Chat-GPT-Project-Forge/compiler/`
 - this technical reference
 - `smoke_test/` materials
 
@@ -877,7 +877,7 @@ Use this file when:
 - you are deciding whether a new support surface would duplicate authority
 
 The web compiler is one of those support surfaces:
-- `https://xxyoudeadpunkxx.github.io/GPT-PF/compiler/`
+- `https://xxyoudeadpunkxx.github.io/GPT-PF-Chat-GPT-Project-Forge/compiler/`
 
 Do not use this file to overrule the canonicals.
 If you find a contradiction, treat it as:

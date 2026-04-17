@@ -134,7 +134,7 @@ This makes Forge useful as a bridge between **conversation** and **structured pr
 
 Project Forge also has a guided web compiler for filling the project-opening files:
 
-- [Open the Project Forge compiler](https://xxyoudeadpunkxx.github.io/GPT-PF/compiler/)
+- [Open the Project Forge compiler](https://xxyoudeadpunkxx.github.io/GPT-PF-Chat-GPT-Project-Forge/compiler/)
 
 Use it when you want a dedicated browser tool for drafting the opening package while keeping the rules in the docs and the decisions with the operator.
 
@@ -186,7 +186,7 @@ That separation is one of Project Forge's main boundaries.
 
 If you want a guided way to fill those files in the browser, use the compiler:
 
-- [Open the Project Forge compiler](https://xxyoudeadpunkxx.github.io/GPT-PF/compiler/)
+- [Open the Project Forge compiler](https://xxyoudeadpunkxx.github.io/GPT-PF-Chat-GPT-Project-Forge/compiler/)
 
 ---
 
@@ -208,7 +208,7 @@ Use it to define the target, close scope, review sources, and compile the openin
 Choose how you want to work:
 
 - manually
-- with the guided web compiler: [Project Forge compiler](https://xxyoudeadpunkxx.github.io/GPT-PF/compiler/)
+- with the guided web compiler: [Project Forge compiler](https://xxyoudeadpunkxx.github.io/GPT-PF-Chat-GPT-Project-Forge/compiler/)
 - with help from ChatGPT Projects
 - with a file-based agent in an IDE or CLI environment
 
@@ -313,7 +313,7 @@ These files support the human operator:
 
 There is also a guided browser compiler for filling the opening files:
 
-- [Open the Project Forge compiler](https://xxyoudeadpunkxx.github.io/GPT-PF/compiler/)
+- [Open the Project Forge compiler](https://xxyoudeadpunkxx.github.io/GPT-PF-Chat-GPT-Project-Forge/compiler/)
 
 Use them for the practical operating rhythm and the deeper technical rationale.
 

@@ -82,7 +82,7 @@ A good practical pattern is:
 ## The Role Of The Web Compiler
 Project Forge also has a guided web compiler:
 
-- `https://xxyoudeadpunkxx.github.io/GPT-PF/compiler/`
+- `https://xxyoudeadpunkxx.github.io/GPT-PF-Chat-GPT-Project-Forge/compiler/`
 
 Use it when you want a cleaner operator-facing surface for filling the opening artifacts.
 
@@ -248,7 +248,7 @@ Close:
 If those three are unstable, the honest state is usually `NOT_READY`.
 
 If you want a guided surface for filling those sections, the web compiler is a good fit:
-- `https://xxyoudeadpunkxx.github.io/GPT-PF/compiler/`
+- `https://xxyoudeadpunkxx.github.io/GPT-PF-Chat-GPT-Project-Forge/compiler/`
 
 ### Step 3. Close the output set
 Be able to say:
@@ -383,7 +383,7 @@ They do not create authority by themselves.
 Authority still comes from the canonicals.
 
 If you want to fill the same artifact structure in a guided browser surface instead of editing the files directly, use:
-- `https://xxyoudeadpunkxx.github.io/GPT-PF/compiler/`
+- `https://xxyoudeadpunkxx.github.io/GPT-PF-Chat-GPT-Project-Forge/compiler/`
 
 ## Minimum Practical Opening Pack
 In the most common clean opening, expect to need:
@@ -568,7 +568,7 @@ Good startup package:
 - only the source pack you want it to use
 
 If you want to prepare those artifacts before the AI session begins, the web compiler is a valid operator surface:
-- `https://xxyoudeadpunkxx.github.io/GPT-PF/compiler/`
+- `https://xxyoudeadpunkxx.github.io/GPT-PF-Chat-GPT-Project-Forge/compiler/`
 
 Do not give:
 - old chats as if they were authoritative
