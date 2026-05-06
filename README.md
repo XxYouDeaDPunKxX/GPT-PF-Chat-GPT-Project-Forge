@@ -52,10 +52,6 @@ Project Forge keeps these surfaces separate:
 The core should stay general.  
 The project package should carry the case.
 
-<p align="center">
-  <img src="./asset/pic%203.png" alt="Project Forge core idea" width="620">
-</p>
-
 ## 📦 What it produces
 
 The minimum useful opening package usually contains:
@@ -76,6 +72,10 @@ Optional artifacts are added only when the case needs them:
 Do not generate every surface by default.
 
 A clean project opening is usually smaller than anxiety wants it to be.
+
+<p align="center">
+  <img src="./asset/pic%202.png" alt="Project Forge workflow" width="620">
+</p>
 
 ## 🧪 Operational examples
 
@@ -118,10 +118,6 @@ Project Forge can be used in more than one way.
 
 The method changes.  
 The boundary does not.
-
-<p align="center">
-  <img src="./asset/pic%202.png" alt="Project Forge workflow" width="620">
-</p>
 
 ### ✍️ Manual
 
@@ -179,6 +175,10 @@ Use the guided browser compiler when you want a dedicated surface for filling th
 The compiler helps structure the package.  
 It does not replace the canonicals.
 
+<p align="center">
+  <img src="./asset/pic%201.png" alt="Project Forge repository overview" width="620">
+</p>
+
 ## ⚙️ How to use it
 
 Use this as the short path.
@@ -200,10 +200,6 @@ Read AI_START.md, then use the Project Forge canonicals to prepare the opening p
 ```
 
 Then provide the target, sources, constraints, and expected outputs.
-
-<p align="center">
-  <img src="./asset/pic%201.png" alt="Project Forge repository overview" width="620">
-</p>
 
 ## 🗂️ Which file should I open?
 
