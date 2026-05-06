@@ -1,358 +1,430 @@
-# Project Forge
+# 🔥 Project Forge
 
 ![Project Forge banner](./asset/banner.png)
 
-## 🧭 What Project Forge is
+Project Forge helps you open **ChatGPT Projects** from explicit files instead of hidden chat continuity.
 
-Project Forge helps you prepare work that will run inside **ChatGPT Projects**.
+It prepares the startup package before the real work begins, so the target project can start from a visible basis instead of reconstructing scope, sources, constraints, and decisions from a previous conversation.
 
-Before the real work begins, Forge helps you define the target, close the scope, separate stable rules from project-specific state, and assemble the files the project needs at startup.
+Most workspaces give you a place to chat.
 
-Most workspaces give you a place to chat.  
 **Project Forge gives you a way to open a project on purpose.**
 
----
+## 🚀 Start here
 
-## 🚫 What Project Forge is not
+Project Forge is a preparation system.
 
-Project Forge is **not** the live project.  
-It is **not** a notebook, a memory substitute, or a raw source dump.
+It does not run the target project.  
+It prepares the target project.
 
-Its job is simple:
+Use it when a new project should not start from memory, chat momentum, or a pile of informal notes.
 
-> **prepare a project so it can start from explicit files instead of rebuilt chat context.**
+Forge helps you close:
 
----
+- 🎯 what project is being prepared
+- 📌 what the project must do
+- 🚧 what is in scope and out of scope
+- 📚 what sources or materials count as official basis
+- 🧾 what project-opening files must exist
+- 🔁 whether handoff or source transfer is actually needed
 
-## 🧩 Core idea
+The result is an opening package: files the target project can read at startup.
 
-Project Forge is built on a simple distinction:
+## 🧱 The boundary
 
-- the **system core** defines the rules of the system
-- the **project package** carries the files and state for one project opening
+Project Forge has one hard boundary:
 
-If those two layers collapse into each other, the system loses its main boundary:
-the rules get mixed with live project state, and the opening package stops being clean.
+**the core defines the rules; the project package carries the state.**
 
-Forge is built to keep that boundary intact.
+That boundary is the system.
 
----
+If live project state enters the core, Forge stops being clean.  
+If the target project depends on chat memory, the opening package is not ready.
 
-## 💬 ChatGPT Projects context
+Project Forge keeps these surfaces separate:
 
-Project Forge is written for **ChatGPT Projects**, where chats, files, and instructions live together in one workspace.
+- 🧠 **canonical core** — the stable rules of Project Forge
+- 📦 **project package** — the files used to open one target project
+- 📚 **candidate material** — sources or notes that are not official yet
+- ✅ **initial official basis** — the approved starting ground
+- 🔁 **handoff state** — only when continuity is really required
 
-That is a different setup from a normal standalone chat, and this repository is designed around that difference.
+The core should stay general.  
+The project package should carry the case.
 
----
-
-## ⚡ In one line
-
-**Project Forge helps you open serious ChatGPT Projects from explicit structure, not from conversational drift.**
-
-![Project Forge core idea](./asset/pic%203.png)
-
----
-
-## 🎯 Why it exists
-
-Projects often begin in an ambiguous way:
-
-- scope is implied instead of defined
-- rules are mixed with case-specific state
-- important context stays in chat instead of files
-- sources, constraints, and handoff logic stay informal
-
-Project Forge is built to address that.
-
-It adds a preparation step between a blank workspace and the real project, so the project starts from a visible basis instead of reconstructed conversation.
-
----
-
-## ✅ When to use it
-
-Use Project Forge when a project needs to start from **explicit structure** rather than from reconstruction inside chat.
-
-It is a good fit when you need to:
-
-- prepare a bounded startup package before live work starts
-- keep scope, basis, and state visible instead of implicit
-- reopen work without relying on hidden chat continuity
-- separate long-lived rules from run-specific material
-- control transfer and handoff instead of improvising them
-
----
-
-## ⛔ When not to use it
-
-Do **not** use Project Forge as:
-
-- the live target project
-- a general-purpose notebook
-- a case archive
-- a raw source dump
-- a memory substitute
-
-Forge is for **preparing** a project, not for **being** the project.
-
----
-
-## 🧰 Where to use it
-
-Project Forge can be used in three main ways.
-
-### 1) 🗂️ As a preparation layer inside ChatGPT Projects
-
-Keep a **clean Forge project** as your reusable preparation kit.
-
-When you want to open a new project, use that Forge workspace to:
-
-- define the target
-- close scope
-- set source and reasoning constraints
-- classify materials
-- compile the opening artifacts
-
-In this mode, Forge acts as a preparation system for other projects.  
-It helps you build the startup package before the live project work begins.
-
-### 2) 💻 With file-based agents and IDE workflows
-
-Forge also works well in agent environments where the model can read and write files while you stay in control of source selection.
-
-A typical flow looks like this:
-
-- you describe the project in natural language
-- the agent proposes candidate sources
-- you review links and tighten constraints
-- the agent updates the artifacts
-- the project starts from explicit files instead of rebuilt chat context
-
-This makes Forge useful as a bridge between **conversation** and **structured project setup**.
-
-### 3) Guided web compiler
-
-Project Forge also has a guided web compiler for filling the project-opening files:
-
-- [Open the Project Forge compiler](https://xxyoudeadpunkxx.github.io/GPT-PF-Chat-GPT-Project-Forge/compiler/)
-
-Use it when you want a dedicated browser tool for drafting the opening package while keeping the rules in the docs and the decisions with the operator.
-
----
-
-![Project Forge workflow](./asset/pic%202.png)
-
-## 🛠️ What Forge does
-
-Project Forge is used to:
-
-- define what project is being prepared
-- define what the prepared project must receive to start correctly
-- keep the core rules separate from live case state
-- externalize case state into controlled artifacts
-- support continuity across runs only when continuity is actually required
-
----
+<p align="center">
+  <img src="./asset/pic%203.png" alt="Project Forge core idea" width="620">
+</p>
 
 ## 📦 What it produces
 
-Project Forge produces two kinds of output:
+The minimum useful opening package usually contains:
 
-### 1. 📘 A stable canonical core
-The core defines the system itself:
+| File / artifact | Purpose |
+|---|---|
+| 🚪 `ENTRY_POINT.md` | Tells the target project how to read the package. |
+| 🎯 `TARGET_PROJECT_BRIEF_ARTIFACT` | Defines objective, scope, expected outputs, and project-specific constraints. |
+| ✅ `INITIAL_SSOT_ARTIFACT` | Freezes the initial official basis of the target project. |
 
-- frame
-- criteria
-- artifact grammar
-- procedure
+Optional artifacts are added only when the case needs them:
 
-### 2. 📄 Project-opening files
-These are the files used to open or continue a real project.
+| Optional artifact | Use |
+|---|---|
+| 🔁 `HANDOFF_ARTIFACT` | Transfers current state when the next run cannot be reconstructed safely. |
+| 📚 `SOURCE_OR_MATERIAL_TRANSFER_ARTIFACT` | Transfers candidate materials without making them official basis yet. |
 
-Depending on the case, they may include:
+Do not generate every surface by default.
 
-- [`ENTRY_POINT.md`](./artifact_templates/ENTRY_POINT.md) for the project package
-- [`TARGET_PROJECT_BRIEF_ARTIFACT.template.md`](./artifact_templates/TARGET_PROJECT_BRIEF_ARTIFACT.template.md)
-- [`INITIAL_SSOT_ARTIFACT.template.md`](./artifact_templates/INITIAL_SSOT_ARTIFACT.template.md)
-- [`SOURCE_OR_MATERIAL_TRANSFER_ARTIFACT.template.md`](./artifact_templates/SOURCE_OR_MATERIAL_TRANSFER_ARTIFACT.template.md)
-- [`HANDOFF_ARTIFACT.template.md`](./artifact_templates/HANDOFF_ARTIFACT.template.md)
+A clean project opening is usually smaller than anxiety wants it to be.
 
-The boundary matters:
+## 🧪 Operational examples
 
-- **the core defines the rules**
-- **the files carry project-specific state**
+Project Forge is domain-agnostic.
 
-That separation is one of Project Forge's main boundaries.
+It does not care whether the project is about sport, research, business, writing, or technical planning.
 
-If you want a guided way to fill those files in the browser, use the compiler:
+It cares whether the project can open from explicit files instead of hidden chat continuity.
+
+### 🏍️ Sports coverage lens
+
+You want to open a project about MotoGP, but not as a generic fan chat.
+
+The project should follow MotoGP through foreign press coverage: what different countries emphasize, which sources are allowed, which narratives are recurring, and what kind of briefing the project should produce.
+
+Project Forge helps prepare:
+
+- 🎯 the target
+- 🌍 the countries or languages in scope
+- 📰 the source perimeter
+- ✅ what counts as official basis
+- 🚫 what is excluded
+- 📋 the expected output shape
+
+### 📚 Research source pack
+
+You have links, notes, PDFs, previous chat material, and a rough research direction.
+
+Instead of opening a project and hoping the assistant reconstructs the intent, Project Forge turns the material into a clean opening package: target, scope, approved sources, initial basis, and missing points.
+
+### 🧩 Product or strategy workspace
+
+You want to open a project around a product idea, positioning problem, workflow, or internal decision.
+
+Project Forge helps separate stable rules from current assumptions, define what the project should decide or produce, and prevent early chat momentum from becoming hidden project authority.
+
+## 🧰 Ways to build the opening package
+
+Project Forge can be used in more than one way.
+
+The method changes.  
+The boundary does not.
+
+<p align="center">
+  <img src="./asset/pic%202.png" alt="Project Forge workflow" width="620">
+</p>
+
+### ✍️ Manual
+
+Fill the templates yourself when the project is small, already clear, or you want maximum control.
+
+This works well when you already know:
+
+- 🎯 objective
+- 🚧 scope in / scope out
+- 📚 approved sources
+- 📋 expected outputs
+- ✅ initial official basis
+
+### 💬 Guided in ChatGPT
+
+Use a clean Project Forge workspace as a preparation room.
+
+ChatGPT helps you close the target, scope, sources, constraints, and initial basis before you create or open the real project.
+
+The rhythm is:
+
+1. 🧼 keep the Forge workspace clean
+2. 📄 provide the Forge files
+3. 💬 describe the target project
+4. 🔎 let ChatGPT help compile the opening package
+5. ✅ review the package
+6. 🆕 open the real target project from those files
+
+Project Forge is the preparation room.  
+The target project is the destination.  
+The opening package is the bridge.
+
+### 🤖 With a file-based agent
+
+Use an agent such as Codex, an IDE assistant, or a CLI agent when you want the opening package drafted directly from files.
+
+The agent can read the canonicals and templates, receive your project information, and compile the artifacts.
+
+The operator still controls:
+
+- 📚 source selection
+- 🔐 authority
+- ✅ final approval
+- 🧾 what becomes official basis
+- 🚫 what must stay out
+
+Do not let the agent turn source proximity or confidence into authority.
+
+### 🧭 With the web compiler
+
+Use the guided browser compiler when you want a dedicated surface for filling the opening files.
 
 - [Open the Project Forge compiler](https://xxyoudeadpunkxx.github.io/GPT-PF-Chat-GPT-Project-Forge/compiler/)
 
----
+The compiler helps structure the package.  
+It does not replace the canonicals.
 
-## 🚀 How to use it
+## ⚙️ How to use it
 
-Project Forge is a clean preparation kit: you keep it clean, then use it to prepare new projects.
+Use this as the short path.
 
-A real workflow usually looks like this.
+1. 🧼 Start from a clean Project Forge workspace.
+2. 🤖 Ask the assistant to read [`AI_START.md`](./AI_START.md).
+3. 📚 Load the four canonicals in the correct read order.
+4. 🎯 Define the target project.
+5. 🚧 Close scope in and scope out.
+6. ✅ Define the initial official basis.
+7. 📦 Compile the opening artifacts.
+8. 🆕 Create or open the target project.
+9. 🚪 Start the target project from the opening files, not from remembered chat context.
 
-### 1) 🧼 Start from a clean Forge workspace
+Minimum operator instruction:
 
-Keep one clean Project Forge setup as your reusable preparation environment.
+```text
+Read AI_START.md, then use the Project Forge canonicals to prepare the opening package for this target project.
+```
 
-Do not turn that workspace into the live project itself.  
-Use it to define the target, close scope, review sources, and compile the opening package for the real project.
+Then provide the target, sources, constraints, and expected outputs.
 
-### 2) 📝 Fill the artifacts for the project you want to open
+<p align="center">
+  <img src="./asset/pic%201.png" alt="Project Forge repository overview" width="620">
+</p>
 
-Choose how you want to work:
+## 🗂️ Which file should I open?
 
-- manually
-- with the guided web compiler: [Project Forge compiler](https://xxyoudeadpunkxx.github.io/GPT-PF-Chat-GPT-Project-Forge/compiler/)
-- with help from ChatGPT Projects
-- with a file-based agent in an IDE or CLI environment
+| Need | Open |
+|---|---|
+| 🚀 Start an AI session correctly | [`AI_START.md`](./AI_START.md) |
+| 🧠 Understand system identity and scope | [`00_SCOPE.md`](./00_SCOPE.md) |
+| 📏 Understand criteria and authority | [`01_RULES.md`](./01_RULES.md) |
+| 📦 Understand artifact classes | [`03_ARTIFACTS.md`](./03_ARTIFACTS.md) |
+| ⚙️ Understand working procedure | [`02_PROTOCOL.md`](./02_PROTOCOL.md) |
+| 👤 Operate the system as a human | [`operator_guide/OPERATOR_GUIDE.md`](./operator_guide/OPERATOR_GUIDE.md) |
+| 🧩 Read deeper rationale | [`operator_guide/OPERATOR_TECHNICAL_REFERENCE.md`](./operator_guide/OPERATOR_TECHNICAL_REFERENCE.md) |
+| 🧪 Check basic behavior | [`smoke_test/SMOKE_TEST.md`](./smoke_test/SMOKE_TEST.md) |
+| ✍️ Fill opening files manually | [`artifact_templates/`](./artifact_templates/) |
+| 🧭 Use guided browser compilation | [Project Forge compiler](https://xxyoudeadpunkxx.github.io/GPT-PF-Chat-GPT-Project-Forge/compiler/) |
 
-In every case, the goal is the same: fill the project-opening files with explicit material instead of leaving the project shape implicit in chat.
+## 🧷 What to keep in mind
 
-At minimum, prepare:
+Files beat memory.
 
-- [`ENTRY_POINT.md`](./artifact_templates/ENTRY_POINT.md)
-- [`TARGET_PROJECT_BRIEF_ARTIFACT.template.md`](./artifact_templates/TARGET_PROJECT_BRIEF_ARTIFACT.template.md)
-- [`INITIAL_SSOT_ARTIFACT.template.md`](./artifact_templates/INITIAL_SSOT_ARTIFACT.template.md)
+If something matters, put it in a file or artifact.  
+Do not rely on the model remembering what the project was supposed to know.
 
-When needed, also prepare:
+The opening package is ready only when the target project can begin without depending on the preparation chat as hidden state.
 
-- [`SOURCE_OR_MATERIAL_TRANSFER_ARTIFACT.template.md`](./artifact_templates/SOURCE_OR_MATERIAL_TRANSFER_ARTIFACT.template.md)
-- [`HANDOFF_ARTIFACT.template.md`](./artifact_templates/HANDOFF_ARTIFACT.template.md)
+<details>
+<summary>🧩 Technical contract</summary>
 
-### 3) 🤝 Use the agent as a structured preparation partner
+## 📚 Canonical core
 
-A practical way to work is:
+Project Forge is governed by four canonical files.
 
-- ask the agent to read [`AI_START.md`](./AI_START.md)
-- let it route into the canonical core
-- define the target project together
-- close scope in and scope out
-- set source constraints and reasoning constraints
-- collect candidate sources
-- review the links yourself
-- tighten or change constraints
-- let the agent update the artifacts
+| File | Authority |
+|---|---|
+| 🧠 [`00_SCOPE.md`](./00_SCOPE.md) | System identity, scope, non-scope, target, final output. |
+| 📏 [`01_RULES.md`](./01_RULES.md) | Criteria, authority, stability, residence, validation, readiness, handoff. |
+| 📦 [`03_ARTIFACTS.md`](./03_ARTIFACTS.md) | Artifact grammar, artifact classes, schemas, triggers, freshness rules. |
+| ⚙️ [`02_PROTOCOL.md`](./02_PROTOCOL.md) | Minimum working procedure, states, output minimums, stop conditions. |
 
-This lets you prepare the project conversationally while keeping the resulting structure outside the chat and inside files.
+Read order:
 
-### 4) 🆕 Create the real project
+```text
+00_SCOPE.md
+01_RULES.md
+03_ARTIFACTS.md
+02_PROTOCOL.md
+```
 
-Once the opening package is ready, create your new project and place the prepared startup files inside it.
+Precedence order:
 
-The project should start from the prepared files, not from rebuilt chat context.
+```text
+00_SCOPE.md > 01_RULES.md > 02_PROTOCOL.md > 03_ARTIFACTS.md
+```
 
-### 5) 📖 Open the project from the files
+Read order is for comprehension.  
+Precedence is for conflict closure.
 
-In the project, tell the agent to read the opening files in the correct startup order.
+## 🔐 Authority
 
-Start from:
+No lower surface may redefine a higher surface.
 
-1. [`ENTRY_POINT.md`](./artifact_templates/ENTRY_POINT.md)
+Runtime operator input is allowed only within the fields already permitted by the canonicals.
 
-Then continue with the standard file order:
+Artifacts may carry local state.  
+Artifacts may not redefine the core.
 
-1. [`TARGET_PROJECT_BRIEF_ARTIFACT.template.md`](./artifact_templates/TARGET_PROJECT_BRIEF_ARTIFACT.template.md)
-2. [`INITIAL_SSOT_ARTIFACT.template.md`](./artifact_templates/INITIAL_SSOT_ARTIFACT.template.md)
-3. [`SOURCE_OR_MATERIAL_TRANSFER_ARTIFACT.template.md`](./artifact_templates/SOURCE_OR_MATERIAL_TRANSFER_ARTIFACT.template.md)
-4. [`HANDOFF_ARTIFACT.template.md`](./artifact_templates/HANDOFF_ARTIFACT.template.md)
+## 🧠 Core / state separation
 
-In many cases, [`ENTRY_POINT.md`](./artifact_templates/ENTRY_POINT.md), [`TARGET_PROJECT_BRIEF_ARTIFACT.template.md`](./artifact_templates/TARGET_PROJECT_BRIEF_ARTIFACT.template.md), and [`INITIAL_SSOT_ARTIFACT.template.md`](./artifact_templates/INITIAL_SSOT_ARTIFACT.template.md) are enough to open the project cleanly.
+Project Forge separates:
 
-### 6) ▶️ Begin the live work only after the opening package is ready
+- 🧠 system rules
+- 📦 project-opening state
+- 📚 candidate materials
+- ✅ official basis
+- 🔁 handoff state
+- 🧯 material that must not be stored
 
-Once the project has read the opening files, the live project work can begin from an explicit basis:
+This prevents the common failure where chat momentum becomes project authority.
 
-- objective is visible
-- scope is bounded
-- sources are controlled
-- official basis is frozen
-- extra materials stay separate from the core rules
+## 🗃️ Stability and residence
 
-That is the whole point of Forge:
-prepare first, then open the real project cleanly.
+Information is classified before it is stored.
 
----
+Stability classes:
 
-### 🔍 What matters most
+- `PERSISTENT`
+- `VOLATILE`
 
-Forge is not tied to a single interface.
+Residence classes:
 
-It is most useful anywhere you can:
-- keep the canonical core stable
-- externalize project-opening state into artifacts
-- review sources before they become official basis
-- reopen work without depending on hidden continuity
+- `CANONICAL`
+- `EXTERNAL_ARTIFACT`
+- `RUNTIME_OPERATOR_INPUT`
+- `DO_NOT_STORE`
 
----
+The system decides in this order:
 
-![Project Forge repository overview](./asset/pic%201.png)
+1. classify stability
+2. assign residence
+
+Never reverse that order.
+
+## 🚫 DO_NOT_STORE
+
+`DO_NOT_STORE` material must not be:
+
+- serialized
+- promoted
+- added to SSOT
+- included in handoff
+- turned into stable project basis
+
+This keeps temporary reasoning, unsafe fragments, and session-only residue from leaking into durable surfaces.
+
+## ✅ Source validation
+
+Before material can become official basis, validate:
+
+- authority
+- direct relevance
+- explicit role
+- freshness when time-sensitive
+- contradiction status
+
+No unvalidated source may become official project basis.
+
+## ⬆️ Promotion
+
+Material is promotable only if it is:
+
+- `stabilized`
+- `normative`
+- `non_case_specific`
+
+Promotion is intentionally conservative.
+
+Notes do not become rules just because they were useful once.  
+Examples do not become policy just because they were nearby.
+
+## 🚦 Readiness states
+
+Project Forge closes the current state as one of:
+
+| State | Meaning |
+|---|---|
+| ✅ `READY` | Required gate conditions are satisfied. |
+| 🟡 `NOT_READY` | Material is missing or weak, but the frame remains coherent. |
+| 🛑 `BLOCKED` | A structural condition is missing, invalid, or unavailable. |
+| ⚔️ `CONFLICT` | Peer-authority surfaces diverge and cannot be closed at the current level. |
+
+## 📦 Artifact classes
+
+Baseline-supported artifact classes:
+
+| Artifact | Purpose |
+|---|---|
+| 🎯 `TARGET_PROJECT_BRIEF_ARTIFACT` | Minimum project-specific operational brief. |
+| ✅ `INITIAL_SSOT_ARTIFACT` | Initial official basis of the target project. |
+| 🔁 `HANDOFF_ARTIFACT` | Continuity across runs when reconstruction is unsafe. |
+| 📚 `SOURCE_OR_MATERIAL_TRANSFER_ARTIFACT` | Candidate material transfer without immediate promotion. |
+
+Not all artifacts are required every time.
+
+Emit artifacts only when authorized by the canonicals and justified by the current case.
+
+## 🧭 Standard flow
+
+The minimum working procedure:
+
+1. close intake object
+2. close target
+3. close required outputs
+4. classify stability
+5. assign residence
+6. validate sources
+7. test promotion eligibility when relevant
+8. apply readiness gate
+9. close handoff branch
+10. emit authorized outputs only
+
+Do not skip a step if skipping would change target, authority, readiness, or output.
+
+## 🛑 Stop conditions
+
+Stop immediately when:
+
+- the real object is not closed
+- authority is not closed
+- target closure changes the move materially
+- a lower surface attempts to redefine a higher surface
+- a required artifact class is undefined
+- a forbidden stability-to-residence combination is attempted
+- immutable fields are targeted by runtime override
+- peer-authority conflict remains unresolved
+
+## 🧪 Smoke test
+
+Use the smoke test to check whether Project Forge can produce a clean target-project opening package from explicit files instead of hidden chat carry-over.
+
+Start with:
+
+- `AI_START.md`
+- the four canonicals
+- the required templates
+- `smoke_test/CASE_01_MINIMAL_OPENING.md`
+
+The test passes when the target project could be opened from the generated package without needing the preparation chat as hidden state.
 
 ## 🗂️ Repository structure
 
-### 📘 Canonical core
-These files define Project Forge itself:
+| Area | Purpose |
+|---|---|
+| 🧠 Canonicals | Stable governing surfaces. |
+| 👤 Operator guide | Human operating rhythm. |
+| 🧩 Technical reference | Deeper mechanism and rationale. |
+| 🤖 AI startup | Routing file for model entry. |
+| ✍️ Artifact templates | Project-opening file templates. |
+| 🧪 Smoke tests | Minimal operational checks. |
+| 🧭 Web compiler | Browser surface for guided package compilation. |
 
-- [`00_SCOPE.md`](./00_SCOPE.md)
-- [`01_RULES.md`](./01_RULES.md)
-- [`03_ARTIFACTS.md`](./03_ARTIFACTS.md)
-- [`02_PROTOCOL.md`](./02_PROTOCOL.md)
-
-These files define the rules of the system.
-
-### 👤 Operator guidance
-These files support the human operator:
-
-- [`operator_guide/OPERATOR_GUIDE.md`](./operator_guide/OPERATOR_GUIDE.md)
-- [`operator_guide/OPERATOR_TECHNICAL_REFERENCE.md`](./operator_guide/OPERATOR_TECHNICAL_REFERENCE.md)
-
-There is also a guided browser compiler for filling the opening files:
-
-- [Open the Project Forge compiler](https://xxyoudeadpunkxx.github.io/GPT-PF-Chat-GPT-Project-Forge/compiler/)
-
-Use them for the practical operating rhythm and the deeper technical rationale.
-
-### 🤖 AI bootstrap
-- [`AI_START.md`](./AI_START.md)
-
-This is a startup routing file for the AI.  
-It points an AI session to the core documents and constrains startup assumptions. It is **not** the primary onboarding surface for a human reader.
-
-### 🧱 Artifact templates
-- [`artifact_templates/`](./artifact_templates/)
-
-This directory contains template files that Forge may instantiate for a real project.
-
-These templates are **not** the system authority.  
-They are output files used during project preparation.
-
-### 🧪 Smoke tests
-- [`smoke_test/`](./smoke_test/)
-
-This contains the smallest operational checks for verifying that the system can open a project cleanly.
-
----
-
-## 📚 Recommended read path
-
-If you just want to understand whether Project Forge is useful for your workflow, start with the shortest practical path:
-
-1. read the opening of [`operator_guide/OPERATOR_GUIDE.md`](./operator_guide/OPERATOR_GUIDE.md)  
-2. read [`smoke_test/SMOKE_TEST.md`](./smoke_test/SMOKE_TEST.md)
-3. read [`smoke_test/CASE_01_MINIMAL_OPENING.md`](./smoke_test/CASE_01_MINIMAL_OPENING.md)
-
-That is usually enough to answer the first real question:
-
-> Can this system prepare a project so it starts from explicit files instead of hidden chat continuity?
-
-If the answer is yes, move into the canonical core.
-
----
+</details>
 
 ## 🤖 AI-assisted development
 
@@ -360,8 +432,8 @@ Project Forge was developed with AI assistance.
 
 The system, documentation, and repository materials were shaped through human-directed work supported by AI tools during drafting, structuring, review, and refinement.
 
----
-
 ## ⚖️ License
 
-This project is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License (`CC BY-SA 4.0`). See [LICENSE](./LICENSE).
+This project is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License (`CC BY-SA 4.0`).
+
+See [`LICENSE`](./LICENSE).
