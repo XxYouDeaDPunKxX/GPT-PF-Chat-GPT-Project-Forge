@@ -1,0 +1,94 @@
+{
+  "name": "Project Forge",
+  "subtitle": "ChatGPT Project Forge",
+  "type": "ChatGPT Projects preparation system",
+  "description": "A preparation system for opening ChatGPT Projects from explicit files instead of hidden chat continuity.",
+  "page_url": "https://xxyoudeadpunkxx.github.io/GPT-PF-Chat-GPT-Project-Forge/",
+  "repository": "https://github.com/XxYouDeaDPunKxX/GPT-PF-Chat-GPT-Project-Forge",
+  "license": "CC BY-SA 4.0",
+  "compiler_url": "https://xxyoudeadpunkxx.github.io/GPT-PF-Chat-GPT-Project-Forge/compiler/",
+  "purpose": "Prepare the startup package before the real work begins, so the target project can start from a visible basis instead of reconstructing scope, sources, constraints, and decisions from previous conversation.",
+  "boundary": "The core defines the rules; the project package carries the state.",
+  "core_surfaces": [
+    {"surface": "canonical core", "meaning": "stable rules of Project Forge"},
+    {"surface": "project package", "meaning": "files used to open one target project"},
+    {"surface": "candidate material", "meaning": "sources or notes that are not official yet"},
+    {"surface": "initial official basis", "meaning": "approved starting ground"},
+    {"surface": "handoff state", "meaning": "only when continuity is really required"}
+  ],
+  "canonical_files": [
+    {"file": "00_SCOPE.md", "role": "System identity, scope, non-scope, target, final output."},
+    {"file": "01_RULES.md", "role": "Criteria, authority, stability, residence, validation, readiness, handoff."},
+    {"file": "03_ARTIFACTS.md", "role": "Artifact grammar, artifact classes, schemas, triggers, freshness rules."},
+    {"file": "02_PROTOCOL.md", "role": "Minimum working procedure, states, output minimums, stop conditions."}
+  ],
+  "read_order": [
+    "00_SCOPE.md",
+    "01_RULES.md",
+    "03_ARTIFACTS.md",
+    "02_PROTOCOL.md"
+  ],
+  "precedence_order": [
+    "00_SCOPE.md",
+    "01_RULES.md",
+    "02_PROTOCOL.md",
+    "03_ARTIFACTS.md"
+  ],
+  "opening_package_artifacts": {
+    "minimum": [
+      {"artifact": "ENTRY_POINT.md", "purpose": "Tells the target project how to read the package."},
+      {"artifact": "TARGET_PROJECT_BRIEF_ARTIFACT", "purpose": "Defines objective, scope, expected outputs, and project-specific constraints."},
+      {"artifact": "INITIAL_SSOT_ARTIFACT", "purpose": "Freezes the initial official basis of the target project."}
+    ],
+    "optional": [
+      {"artifact": "HANDOFF_ARTIFACT", "purpose": "Transfers current state when the next run cannot be reconstructed safely."},
+      {"artifact": "SOURCE_OR_MATERIAL_TRANSFER_ARTIFACT", "purpose": "Transfers candidate materials without making them official basis yet."}
+    ],
+    "rule": "Do not generate every surface by default."
+  },
+  "usage_paths": [
+    "Manual template filling",
+    "Guided in ChatGPT preparation workspace",
+    "File-based agent such as Codex, IDE assistant, or CLI agent",
+    "Guided browser compiler"
+  ],
+  "standard_flow": [
+    "close intake object",
+    "close target",
+    "close required outputs",
+    "classify stability",
+    "assign residence",
+    "validate sources",
+    "test promotion eligibility when relevant",
+    "apply readiness gate",
+    "close handoff branch",
+    "emit authorized outputs only"
+  ],
+  "readiness_states": [
+    {"state": "READY", "meaning": "Required gate conditions are satisfied."},
+    {"state": "NOT_READY", "meaning": "Material is missing or weak, but the frame remains coherent."},
+    {"state": "BLOCKED", "meaning": "A structural condition is missing, invalid, or unavailable."},
+    {"state": "CONFLICT", "meaning": "Peer-authority surfaces diverge and cannot be closed at the current level."}
+  ],
+  "stop_conditions": [
+    "the real object is not closed",
+    "authority is not closed",
+    "target closure changes the move materially",
+    "a lower surface attempts to redefine a higher surface",
+    "a required artifact class is undefined",
+    "a forbidden stability-to-residence combination is attempted",
+    "immutable fields are targeted by runtime override",
+    "peer-authority conflict remains unresolved"
+  ],
+  "keywords": [
+    "ChatGPT Projects",
+    "project preparation",
+    "explicit files",
+    "opening package",
+    "project scope",
+    "source authority",
+    "canonical files",
+    "Project Forge",
+    "GPT-PF"
+  ]
+}
