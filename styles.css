@@ -178,13 +178,17 @@ img {
 
 .image-frame-main {
   margin-bottom: var(--s3);
+  padding: var(--s0);
+  clip-path: none;
 }
 
 .image-frame-main img {
   width: 100%;
-  max-height: 620px;
+  max-height: none;
   object-fit: contain;
   object-position: center;
+  clip-path: none;
+  border: 0;
 }
 
 .phi-main,
@@ -344,6 +348,20 @@ h1 {
 
 .section-meta {
   align-self: start;
+}
+
+.split .support-visual {
+  grid-column: 1 / -1;
+  width: min(100%, 1120px);
+  justify-self: center;
+  align-self: center;
+  margin-top: var(--s1);
+}
+
+.split .support-visual img {
+  max-height: none;
+  object-fit: contain;
+  clip-path: none;
 }
 
 .side-visual {
@@ -531,6 +549,10 @@ h1 {
   .side-visual {
     width: min(100%, 760px);
     margin-inline: auto;
+  }
+
+  .split .support-visual {
+    width: min(100%, 980px);
   }
 }
 
