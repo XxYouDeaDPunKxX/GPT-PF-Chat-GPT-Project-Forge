@@ -3,11 +3,16 @@
   "subtitle": "ChatGPT Project Forge",
   "type": "ChatGPT Projects preparation system",
   "description": "A preparation system for opening ChatGPT Projects from explicit files instead of hidden chat continuity.",
+  "url": "https://xxyoudeadpunkxx.github.io/GPT-PF-Chat-GPT-Project-Forge/",
   "page_url": "https://xxyoudeadpunkxx.github.io/GPT-PF-Chat-GPT-Project-Forge/",
   "repository": "https://github.com/XxYouDeaDPunKxX/GPT-PF-Chat-GPT-Project-Forge",
+  "runtime": "ChatGPT Projects and AI-assisted project preparation workflows",
   "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
   "compiler_url": "https://xxyoudeadpunkxx.github.io/GPT-PF-Chat-GPT-Project-Forge/compiler/",
+  "identity": "Make the opening legible before the work begins.",
   "purpose": "Prepare the startup package before the real work begins, so the target project can start from a visible basis instead of reconstructing scope, sources, constraints, and decisions from previous conversation.",
+  "use_case": "Use Project Forge when a ChatGPT Project should start from explicit files, visible scope, known sources, constraints, and a prepared opening package instead of informal carry-over.",
   "boundary": "The core defines the rules; the project package carries the state.",
   "core_surfaces": [
     {"surface": "canonical core", "meaning": "stable rules of Project Forge"},
@@ -80,6 +85,26 @@
     "immutable fields are targeted by runtime override",
     "peer-authority conflict remains unresolved"
   ],
+  "discovery_set": {
+    "llms": "llms.txt",
+    "manifest": "raw-manifest.json",
+    "robots": "robots.txt",
+    "sitemap": "sitemap.xml",
+    "html_signals": [
+      "canonical URL",
+      "rel=alternate for llms.txt",
+      "rel=alternate for raw-manifest.json",
+      "JSON-LD SoftwareSourceCode metadata",
+      "Open Graph metadata",
+      "footer machine-readable links"
+    ]
+  },
+  "machine_readable_files": [
+    "llms.txt",
+    "raw-manifest.json",
+    "robots.txt",
+    "sitemap.xml"
+  ],
   "keywords": [
     "ChatGPT Projects",
     "project preparation",
@@ -89,6 +114,9 @@
     "source authority",
     "canonical files",
     "Project Forge",
-    "GPT-PF"
+    "GPT-PF",
+    "ChatGPT project bootloader",
+    "project opening package",
+    "source authority preparation"
   ]
 }
