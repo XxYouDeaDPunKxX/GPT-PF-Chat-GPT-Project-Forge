@@ -85,67 +85,68 @@
         </nav>
       </header>
 
-      <main id="top">
-        <section class="hero">
-          <figure class="hero-banner">
+      <main id="top" class="page-flow">
+        <section class="hero panel">
+          <figure class="hero-banner image-frame image-frame-main">
             <img src="./assets/hero-main.png" alt="Project planning table with human and AI collaborator">
           </figure>
-          <div class="hero-intro">
-            <div class="tag">Project Forge / ChatGPT Projects</div>
-            <h1>Make the opening legible before the work begins.</h1>
-            <p class="lead">
-              Project Forge helps you prepare serious ChatGPT Projects from
-              explicit files, scope, and startup structure instead of rebuilding
-              the opening from chat.
-            </p>
-            <div class="hero-actions">
-              <a class="button button-primary" href="https://github.com/XxYouDeaDPunKxX/GPT-PF-Chat-GPT-Project-Forge" target="_blank" rel="noreferrer">
-                Open the repository
-              </a>
-              <a class="button button-secondary" href="./compiler/">
-                Open the compiler
-              </a>
-              <a class="button button-secondary" href="#read-path">
-                Start with the shortest path
-              </a>
-            </div>
-          </div>
 
-          <div class="diagram" aria-label="Project Forge system diagram">
-            <article class="node">
-              <span class="node-label">System rules</span>
-              <h2>Core documents</h2>
-              <p>
-                The core documents define scope, rules, file grammar, and
-                procedure.
+          <div class="hero-layout phi-main">
+            <div class="hero-intro copy-block">
+              <div class="tag">Project Forge / ChatGPT Projects</div>
+              <h1>Make the opening legible before the work begins.</h1>
+              <p class="lead">
+                Project Forge helps you prepare serious ChatGPT Projects from
+                explicit files, scope, and startup structure instead of rebuilding
+                the opening from chat.
               </p>
-            </article>
-            <div class="connector"></div>
-            <article class="node">
-              <span class="node-label">Opening files</span>
-              <h2>Project package</h2>
-              <p>
-                The startup files carry project-specific state without mixing it
-                into the core rules.
-              </p>
-            </article>
-            <div class="connector"></div>
-            <article class="node">
-              <span class="node-label">Real project start</span>
-              <h2>Live project</h2>
-              <p>
-                The real project opens from visible files, bounded scope, and a
-                clear approved starting point.
-              </p>
-            </article>
+              <div class="hero-actions action-row">
+                <a class="button button-primary" href="https://github.com/XxYouDeaDPunKxX/GPT-PF-Chat-GPT-Project-Forge" target="_blank" rel="noreferrer">
+                  Open the repository
+                </a>
+                <a class="button button-secondary" href="./compiler/">
+                  Open the compiler
+                </a>
+                <a class="button button-secondary" href="#read-path">
+                  Start with the shortest path
+                </a>
+              </div>
+            </div>
+
+            <div class="diagram" aria-label="Project Forge system diagram">
+              <article class="node">
+                <span class="node-label">System rules</span>
+                <h2>Core documents</h2>
+                <p>
+                  The core documents define scope, rules, file grammar, and
+                  procedure.
+                </p>
+              </article>
+              <article class="node">
+                <span class="node-label">Opening files</span>
+                <h2>Project package</h2>
+                <p>
+                  The startup files carry project-specific state without mixing it
+                  into the core rules.
+                </p>
+              </article>
+              <article class="node">
+                <span class="node-label">Real project start</span>
+                <h2>Live project</h2>
+                <p>
+                  The real project opens from visible files, bounded scope, and a
+                  clear approved starting point.
+                </p>
+              </article>
+            </div>
           </div>
         </section>
 
-        <section class="section split" id="what-it-is">
+        <section class="section panel split" id="what-it-is">
           <div class="section-meta">
             <p>What it is</p>
           </div>
-          <div class="section-copy">
+          <div class="section-copy copy-block">
             <h2>A preparation layer, not the live project.</h2>
             <p>
               Project Forge helps you define the target, close scope, separate
@@ -157,23 +158,25 @@
               is to prepare the project so the real work can start cleanly.
             </p>
           </div>
-          <figure class="support-visual">
+          <figure class="support-visual image-frame side-visual">
             <img src="./assets/hero-support.png" alt="Structured planning desk with artifacts and opening package materials">
           </figure>
         </section>
 
-        <section class="section band" id="core-idea">
-          <p class="section-kicker">Core idea</p>
-          <h2>Keep the core rules separate from the project package.</h2>
-          <p>
-            The system works because the rules and the live project state do not
-            collapse into each other. The core defines how Forge works. The
-            package carries what the real project needs at startup.
-          </p>
+        <section class="section panel band" id="core-idea">
+          <div class="band-copy copy-block centered-copy">
+            <p class="section-kicker">Core idea</p>
+            <h2>Keep the core rules separate from the project package.</h2>
+            <p>
+              The system works because the rules and the live project state do not
+              collapse into each other. The core defines how Forge works. The
+              package carries what the real project needs at startup.
+            </p>
+          </div>
         </section>
 
-        <section class="section cards">
-          <div class="section-heading">
+        <section class="section panel cards">
+          <div class="section-heading centered-copy">
             <p class="section-kicker">When it fits</p>
             <h2>Use it when a project should start from files, not carry-over.</h2>
           </div>
@@ -196,12 +199,15 @@
           </div>
         </section>
 
-        <section class="section process" id="workflow">
-          <div class="section-heading">
+        <section class="section panel process" id="workflow">
+          <div class="section-heading centered-copy">
             <p class="section-kicker">How it works</p>
             <h2>A controlled path from blank workspace to ready project.</h2>
           </div>
-          <div class="process-layout">
+          <div class="process-layout phi-left">
+            <figure class="workflow-visual image-frame side-visual">
+              <img src="./assets/workflow-studio.png" alt="High-tech planning studio with AI and human reviewing structured project materials">
+            </figure>
             <div class="timeline">
               <div class="step">
                 <span class="step-number">01</span>
@@ -234,14 +240,11 @@
                 </div>
               </div>
             </div>
-            <figure class="workflow-visual">
-              <img src="./assets/workflow-studio.png" alt="High-tech planning studio with AI and human reviewing structured project materials">
-            </figure>
           </div>
         </section>
 
-        <section class="section system-map" id="surfaces">
-          <div class="section-heading">
+        <section class="section panel system-map" id="surfaces">
+          <div class="section-heading centered-copy">
             <p class="section-kicker">Repository map</p>
             <h2>The repo is already the system map.</h2>
           </div>
@@ -274,7 +277,7 @@
                 Open smoke tests
               </a>
             </div>
-            <div class="map-column">
+            <div class="map-column map-column-wide">
               <h3>Web compiler</h3>
               <p>A guided web tool for filling the opening files and exporting the package.</p>
               <a href="./compiler/">
@@ -284,8 +287,8 @@
           </div>
         </section>
 
-        <section class="section read-path" id="read-path">
-          <div class="section-heading">
+        <section class="section panel read-path" id="read-path">
+          <div class="section-heading centered-copy">
             <p class="section-kicker">Start here</p>
             <h2>The shortest practical read path.</h2>
           </div>
