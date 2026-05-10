@@ -5,19 +5,57 @@ Subtitle: ChatGPT Project Forge
 Type: ChatGPT Projects preparation system
 URL: https://xxyoudeadpunkxx.github.io/GPT-PF-Chat-GPT-Project-Forge/
 Repository: https://github.com/XxYouDeaDPunKxX/GPT-PF-Chat-GPT-Project-Forge
+Runtime: ChatGPT Projects and AI-assisted project preparation workflows
 License: CC BY-SA 4.0
+License URL: https://creativecommons.org/licenses/by-sa/4.0/
 Compiler: https://xxyoudeadpunkxx.github.io/GPT-PF-Chat-GPT-Project-Forge/compiler/
+Canonical core files: 00_SCOPE.md, 01_RULES.md, 03_ARTIFACTS.md, 02_PROTOCOL.md
+
+## What this is
+
+Project Forge is a preparation system for opening ChatGPT Projects from explicit files instead of hidden chat continuity.
+
+It prepares the startup package before the real work begins, so the target project can start from a visible basis instead of reconstructing scope, sources, constraints, and decisions from a previous conversation.
+
+It is not a notebook, case archive, or memory substitute. It is a preparation layer for clean project openings.
+
+## Operating line
+
+Make the opening legible before the work begins.
+
+## Use case
+
+Use Project Forge when a ChatGPT Project should start from explicit files, visible scope, known sources, constraints, and a prepared opening package instead of informal carry-over.
+
+## Canonical source
+
+The canonical public source is the repository.
+
+Core files:
+
+- 00_SCOPE.md
+- 01_RULES.md
+- 03_ARTIFACTS.md
+- 02_PROTOCOL.md
+
+Treat this file as the LLM-readable project index, not as the full Project Forge specification.
 
 ## Purpose
+
 Project Forge helps open ChatGPT Projects from explicit files instead of hidden chat continuity.
+
 It prepares the startup package before the real work begins, so the target project can start from a visible basis instead of reconstructing scope, sources, constraints, and decisions from a previous conversation.
 
 ## Boundary
+
 The core defines the rules; the project package carries the state.
+
 If live project state enters the core, Forge stops being clean.
+
 If the target project depends on chat memory, the opening package is not ready.
 
 ## Core surfaces
+
 - canonical core: stable rules of Project Forge
 - project package: files used to open one target project
 - candidate material: sources or notes that are not official yet
@@ -25,41 +63,49 @@ If the target project depends on chat memory, the opening package is not ready.
 - handoff state: only when continuity is really required
 
 ## Canonical files
+
 - 00_SCOPE.md: system identity, scope, non-scope, target, final output.
 - 01_RULES.md: criteria, authority, stability, residence, validation, readiness, handoff.
 - 03_ARTIFACTS.md: artifact grammar, artifact classes, schemas, triggers, freshness rules.
 - 02_PROTOCOL.md: minimum working procedure, states, output minimums, stop conditions.
 
 ## Read order
+
 1. 00_SCOPE.md
 2. 01_RULES.md
 3. 03_ARTIFACTS.md
 4. 02_PROTOCOL.md
 
 ## Precedence order
+
 00_SCOPE.md > 01_RULES.md > 02_PROTOCOL.md > 03_ARTIFACTS.md
 
 Read order is for comprehension. Precedence is for conflict closure.
 
 ## Opening package artifacts
+
 Minimum useful opening package:
+
 - ENTRY_POINT.md: tells the target project how to read the package.
 - TARGET_PROJECT_BRIEF_ARTIFACT: defines objective, scope, expected outputs, and project-specific constraints.
 - INITIAL_SSOT_ARTIFACT: freezes the initial official basis of the target project.
 
 Optional artifacts:
+
 - HANDOFF_ARTIFACT: transfers current state when the next run cannot be reconstructed safely.
 - SOURCE_OR_MATERIAL_TRANSFER_ARTIFACT: transfers candidate materials without making them official basis yet.
 
 Do not generate every surface by default.
 
 ## Usage paths
+
 - Manual: fill the templates directly.
 - Guided in ChatGPT: use Forge as a preparation room before opening the real target project.
 - File-based agent: use Codex, an IDE assistant, or CLI agent to draft the package from files.
 - Web compiler: use the guided browser compiler to fill and export the opening package.
 
 ## Standard flow
+
 1. close intake object
 2. close target
 3. close required outputs
@@ -72,13 +118,34 @@ Do not generate every surface by default.
 10. emit authorized outputs only
 
 ## Readiness states
+
 - READY: required gate conditions are satisfied.
 - NOT_READY: material is missing or weak, but the frame remains coherent.
 - BLOCKED: a structural condition is missing, invalid, or unavailable.
 - CONFLICT: peer-authority surfaces diverge and cannot be closed at the current level.
 
 ## Stop conditions
+
 Stop when the real object is not closed, authority is not closed, target closure changes the move materially, a lower surface attempts to redefine a higher surface, a required artifact class is undefined, a forbidden stability-to-residence combination is attempted, immutable fields are targeted by runtime override, or peer-authority conflict remains unresolved.
 
+## Discovery Set
+
+Machine-readable project files:
+
+- llms.txt: LLM-readable project index.
+- raw-manifest.json: structured machine-readable project manifest.
+- robots.txt: crawler access declaration.
+- sitemap.xml: sitemap for the GitHub Pages surface.
+
+HTML discovery signals:
+
+- canonical URL
+- rel=alternate for llms.txt
+- rel=alternate for raw-manifest.json
+- JSON-LD SoftwareSourceCode metadata
+- Open Graph metadata
+- footer machine-readable links
+
 ## Keywords
-ChatGPT Projects, project preparation, explicit files, opening package, project scope, source authority, canonical files, Project Forge, GPT-PF
+
+ChatGPT Projects, project preparation, explicit files, opening package, project scope, source authority, canonical files, Project Forge, GPT-PF, ChatGPT project bootloader, project opening package, source authority preparation
