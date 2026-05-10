@@ -488,6 +488,35 @@ h1 {
   border: 1px solid rgba(129, 200, 255, 0.12);
 }
 
+.site-footer {
+  margin-top: 22px;
+  padding: 24px 4px 0;
+  color: var(--muted);
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.machine-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.45rem 0.7rem;
+  margin-top: 0.85rem;
+  color: var(--muted);
+  font-size: 0.78rem;
+}
+
+.machine-links a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.machine-links a:hover,
+.machine-links a:focus-visible {
+  color: var(--ink);
+  text-decoration: underline;
+}
+
 @media (max-width: 1080px) {
   .diagram {
     grid-template-columns: 1fr;
