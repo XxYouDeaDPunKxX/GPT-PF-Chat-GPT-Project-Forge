@@ -424,9 +424,11 @@ The test passes when the target project could be opened from the generated packa
 
 ## 🤖 AI-assisted development
 
-Project Forge was developed with AI assistance.
+This project was developed with AI assistance.
 
-The system, documentation, and repository materials were shaped through human-directed work supported by AI tools during drafting, structuring, review, and refinement.
+The project, documentation, and repository materials were shaped through human-directed work supported by AI tools during drafting, structuring, review, and refinement.
+
+AI assistance does not make the project automatically correct, complete, or suitable for every use case. Read it, test it, and adapt it to your own context.
 
 ## ⚖️ License
 
